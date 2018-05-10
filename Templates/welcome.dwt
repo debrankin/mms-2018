@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta id="p7TM3" name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Maine Music Society 2013-2014 Season</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content="Welcome to Music for All Seasons">
+<meta property="fb:app_id" content="324865420943262" />
+<meta property="og:image" content="http://www.mainemusicsociety.org/images/mms-fb2.png">
+<meta property="og:title" content="Maine Music Society 2012-2013 Performance Season"/>
+
+<meta property="og:url" content="http://www.mainemusicsociety.org/index.html"/>
+<meta property="og:site_name" content="Maine Music Society"/>
+<meta property="og:type" content="website"/>
+
+<meta property="og:description" content="It is such a joy to begin the next 20 years with the Maine Music Society and the Androscoggin Chorale. After celebrating our 20th anniversary, the Maine Music Society is growing almost by leaps and bounds." />
+<link href="../gobal.css" rel="stylesheet" type="text/css">
+<link href="../MMS_BL.css" rel="stylesheet" type="text/css">
+<link href="../p7tm3/p7TM3-01.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="../p7tm3/p7TM3scripts.js"></script>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/lustria:n4:default.js" type="text/javascript"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onLoad="P7_initPM(1,0,1,-20,10)">
+<a id="top"></a>
+<!--<div class="top-bar-wide">
+  <p>&nbsp; Like on Facebook&nbsp; &nbsp; |&nbsp; sign up for email&nbsp;&nbsp;|&nbsp; &nbsp;view cart&nbsp; &nbsp;| SEARCH SITE</p>
+</div>-->
+<div id="wrapper">
+
+    <div class="header" style="height:200px;"></div>
+    <div class="header-mobile"> <a href="../tickets.html"><img src="../images/header-2014-mobile.png" alt="Maine Music Society 2013-2014" width="521" height="220" class="scalable"></a></div>
+    <div class="horiz-nav">
+  <div id="venue">  <a href="../concerts.html">Concert Calendar</a> | <a href="../events.php">Special Events</a> | <a href="../tickets.html">Purchase Tickets</a> &nbsp;&nbsp;<a href="../index2.html"><img src="../images/home.png" alt="home" width="22" height="18" border="0" align="top" /></a> <!--<a href="musicclips.php">Listen <img src="images/audio_sm.jpg" width="20" height="19" border="0" align="absbottom" /></a>--></div></div>
+  <div class="clearfloat">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>sdfsdf</p>
+    <p>&nbsp;</p>
+    <p>puet slides here</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+
+</div><footer>
+  <div class="foot-contain">
+    <div class="foot-nav-box">
+      <div class="inner-foot-box">
+        <h2>Ticket Purchase Options </h2>
+        <div class="details-arr"><img src="../images/r-men-arr.png" alt="" width="14" height="20" border="0"></div>
+        <a href="../tickets.html">Click here for online purchase</a><br>
+        <br>
+        By phone: LA ARTS  @ 207-782-7228 <br>
+        By mail: <a href="pdfs/mail-in-form.pdf" target="_blank">Download form</a></div>
+    </div>
+    <div class="foot-nav-box">
+      <div class="inner-foot-box">
+        <h2>Quick Links</h2>
+        <div class="quickl">
+          <ul>
+            <li><a href="../calendar.html">Season at a Glance</a></li>
+            <li><a href="../concerts.html">Concerts</a></li>
+            <li><a href="../events.php">Special Events</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="quickl">
+          <ul>
+            <li><a href="../tickets.html">Tickets</a></li>
+            <li><a href="../franco.html">Venues &amp; Directions</a></li>
+            <li><a href="../faqs.html">FAQS</a></li>
+            <li><a href="https://app.arts-people.com/index.php?contribution=mms" target="_blank">Make a Donation</a></li>
+          </ul>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+  <div class="foot-logo"><a href="http://www.facebook.com/pages/Maine-Music-Society-Androscoggin-Chorale/122234034468253" target="_blank"> <img src="../images/facebook.png" alt="" width="151" height="49" class="scalable" ></a></div>
+  <div style="clear:both;"></div>
+  <div class="contact-bar" style="font-size:10px;">Copyright Maine Music Society 2015</div>
+  <br clear="all" />
+</footer>
+</body>
+</html>

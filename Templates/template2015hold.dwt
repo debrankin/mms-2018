@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Maine Music Society 2017-2018 Season</title>
+<!-- TemplateEndEditable -->
+<link href="../gobal.css" rel="stylesheet" type="text/css">
+<link href="../MMS_BL.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/lustria:n4:default.js" type="text/javascript"></script>
+<link href="http://fonts.googleapis.com/css?family=Federo" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+	$(window).scroll(function() {
+		if($(this).scrollTop() != 0) {
+			$('#backtotop').fadeIn();	
+		} else {
+			$('#backtotop').fadeOut();
+		}
+	});
+ 
+	$('#backtotop').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+	});	
+});
+</script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="../includes/extendjQuery.js"></script>
+<script type="text/javascript" src="../includes/FlexiMenus2/fleximenus2.js"></script>
+<link href="../includes/FlexiMenus2/CSSMenu_CSSMenu3.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onLoad="P7_initPM(1,0,1,-20,10)"><a id="top"></a>
+<div id="wrapper">
+
+  <div class="header">HEADER</div>
+  <div class="header-mobile"> <a href="../tickets.html"><img src="../images/header-2014-mobile.png" alt="Maine Music Society 2013-2014" width="521" height="220" class="scalable"></a></div><div><div id="CSSMenu3_container" class="FM2_CSSMenu3_container" style="display:block">
+    <ul id="CSSMenu3" class="FM2_CSSMenu3">
+      <!-- version=2.0.217;name=CSSMenu3;baseskin=skin09;colorscheme=dark_blue;type=horizontal; -->
+      <li> <a href="#" target="_self"><font class="leaf">Home</font></a> </li>
+      <li> <a href="#" target="_self"><font class="leaf">Sponsors</font></a> </li>
+      <li> <a href="#" target="_self"><span class="branch">2014 - 2015 Season</span></a>
+        <ul>
+          <li> <a href="#" target="_self"><font class="leaf">Season at a Glance</font></a> </li>
+          <li> <a href="#" target="_self"><span class="branch">Concerts</span></a>
+            <ul>
+              <li> <a href="#" target="_self"><font class="leaf">Battle of the Blends XXI</font></a> </li>
+              <li> <a href="#" target="_self"><font class="leaf">concert 2</font></a> </li>
+               <li> <a href="#" target="_self"><font class="leaf">concert 3</font></a> </li>
+                <li> <a href="#" target="_self"><font class="leaf">concert 4</font></a> </li>
+            </ul>
+            <li> <a href="#" target="_self"><span class="branch">Special Events</span></a><ul>
+              <li> <a href="#" target="_self"><font class="leaf">Silent Auction</font></a> </li>
+              <li> <a href="#" target="_self"><font class="leaf">Wine Tasting</font></a> </li>
+              
+            </ul>
+          </li>
+         
+        </ul>
+      </li>
+      <li> <a href="#" target="_self"><font class="leaf">Box Office</font></a> </li>
+      <li> <a href="#" target="_self"><font class="leaf">About Us</font></a> <ul>
+      <li> <a href="#" target="_self"><font class="leaf">Mission Statement</font></a> </li>
+              <li> <a href="#" target="_self"><font class="leaf">Board of Directos</font></a> </li>
+              <li> <a href="#" target="_self"><font class="leaf">John Corrie, Artistic Director</font></a> </li>
+               <li> <a href="#" target="_self"><font class="leaf">Bridget Convey, Accompanist</font></a> </li>
+                <li> <a href="#" target="_self"><font class="leaf">History and Highlights</font></a> </li><li> <a href="#" target="_self"><font class="leaf">Androscoggin Chorale</font></a> </li><li> <a href="#" target="_self"><font class="leaf">Affiliations</font></a> </li>
+            </ul></li>   <li> <a href="#" target="_self"><font class="leaf">FAQS</font></a> </li><li> <a href="#" target="_self"><font class="leaf">Audition for Chorale</font></a> </li><li> <a href="#" target="_self"><font class="leaf">Venues & Directions</font></a> </li>
+      
+    </ul>
+<script type="text/javascript">registerFlexiCSSMenu("CSSMenu3", {"menuType":"horizontal","effectSub":{"name":"fade","direction":"up","duration":250,"easing":"swing","useFade":true},"effectRest":{"name":"slide","direction":"left","duration":250,"easing":"swing","useFade":true},"effectSubTwo":null,"options":{"preset":"push","enableTablet":true,"enableMobile":true,"mobileMaxWidth":640,"tabletMaxWidth":1023,"tabletCloseBtnLabel":"Close","tabletCloseBtnEnable":true,"align":"left"},"stickToTop":true,"takeBrowserWidth":true});
+</script>
+</div>
+
+<a class="FM2_mobile_button" id="FM2_CSSMenu3_mobile_button"><span class="caption">Menu</span></a>
+</div>
+<div class="horiz-nav">
+  <div id="venue">  <a href="concerts.php">Concert Calendar</a> | <a href="events.php">Special Events</a> | <a href="purchase.php">Purchase Tickets</a> &nbsp;&nbsp;<a href="index2.html"><img src="../images/home.png" alt="home" width="22" height="18" border="0" align="top" /></a> <!--<a href="musicclips.php">Listen <img src="images/audio_sm.jpg" width="20" height="19" border="0" align="absbottom" /></a>--></div></div>
+
+    <aside><div id="fb-buttons">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=265498730130336&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-send="true" data-layout="button_count" data-width="159" data-show-faces="true" data-font="trebuchet ms"></div>
+          </div>
+      <div class="hidead"></div>
+</aside>
+  <!-- TemplateBeginEditable name="maincontent-region" -->
+    <div class="content">
+      <h1>main casdfontetn goes here</h1>
+      <p>&nbsp;</p>
+      <h1 style="color: #B63493">Battle of the Blends XX</h1>
+      <p><br>
+        Saturday, Nov. 2, 2014  &bull; 7:30 pm<strong><br>
+</strong>The Franco Center, Lewiston </p>
+      <p> &lt;ul&gt;<br>
+&lt;li&gt;&lt;a href=&quot;mission.html&quot;&gt;MIssion Statement&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;bdirectors.html&quot;&gt;Board of Directors&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;jcorrie.html&quot;&gt;John Corrie, Artistic Director&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;bridget_convey.html&quot;&gt;Bridget Convey, Accompanist&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;history.html&quot;&gt;History and Highlights&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;chorale.html&quot;&gt;Androscoggin Chorale&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;affiliations.html&quot;&gt;Affiliations&lt;/a&gt;&lt;/li&gt;<br>
+&lt;/ul&gt;</p>
+    </div>
+    <!-- TemplateEndEditable --><br clear="all" /> 
+  
+
+    
+</div><footer>
+      <div class="foot-contain">
+  <div class="foot-nav-box">
+    <div class="inner-foot-box">
+      <h2>Ticket Purchase Options </h2>
+      <div class="details-arr"><img src="../images/r-men-arr.png" alt="" width="14" height="20" border="0"></div>
+<a href="../tickets.html">Click here for online purchase</a><br>
+        <br>
+      By phone: LA ARTS  @ 207-782-7228 <br>
+      By mail: <a href="pdfs/mail-in-form.pdf" target="_blank">Download form</a>        </div>
+  </div>
+        <div class="foot-nav-box"><div class="inner-foot-box">
+          <h2>Quick Links</h2>
+          <div class="quickl">
+            <ul>
+              <li><a href="../calendar.html">Season at a Glance</a></li>
+              <li><a href="../concerts.html">Concerts</a></li>
+              <li><a href="../events.php">Special Events</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="quickl"><ul>
+            <li><a href="../tickets.html">Tickets</a></li>
+            <li><a href="../franco.html">Venues &amp; Directions</a></li>
+            <li><a href="../faqs.html">FAQS</a></li>
+            <li><a href="https://app.arts-people.com/index.php?contribution=mms" target="_blank">Make a Donation</a></li>
+          </ul></div><div style="clear:both;"></div></div>
+        </div><div style="clear:both;"></div>
+      </div>
+      <div class="foot-logo"><a href="http://www.facebook.com/pages/Maine-Music-Society-Androscoggin-Chorale/122234034468253" target="_blank"> <img src="../images/facebook.png" alt="" width="151" height="49" class="scalable" ></a></div>
+      <div style="clear:both;"></div>
+      
+      <div class="contact-bar" style="font-size:10px;">Copyright Maine Music Society 2015</div>
+      <br clear="all" />
+  </footer>
+
+</body>
+</html>

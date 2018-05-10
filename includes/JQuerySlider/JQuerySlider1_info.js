@@ -1,0 +1,1 @@
+{"bgType":"background01","skin":"blank","colorscheme":"default","isCustomSkin":false}

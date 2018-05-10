@@ -1,0 +1,7 @@
+Sitemap: http://www.mainemusicsociety.org/sitemap.xml
+User-Agent: *
+  Allow: /
+  Disallow:/test-17/
+  Disallow: /Templates/
+  Disallow: /test/
+

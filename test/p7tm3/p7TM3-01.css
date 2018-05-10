@@ -1,0 +1,167 @@
+/* 
+  -----------------------------------
+  Tree Menu Magic 3
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 01 - Basic
+  -----------------------------------
+*/
+
+.p7TM3-01 {
+	font-size: inherit;
+	zoom: 1;
+	font-family: "Segoe UI", "Gill Sans", Optima, "Droid Sans", sans-serif;
+}
+.p7TM3-01:after {
+	content: "\0020";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+}
+.p7TM3-01 ul {
+	margin: 0;
+	padding: 0;
+}
+.p7TM3-01 ul ul {
+	padding: 6px 0px 12px 0px;
+	background-color: #FFFFFF;
+}
+.p7TM3-01.outer-shadow {
+	box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+	padding: 10px;
+}
+.p7TM3-01.outer-shadow.rounded-corners {
+	border-radius: 4px;
+}
+.p7TM3-01.outer-shadow ul a.tm3last {
+	border-bottom: none !important;
+}
+.p7TM3-01.rounded-corners ul ul {
+	border-radius: 5px;
+}
+.p7TM3-01 ul ul ul {
+	border: none;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.p7TM3-01 li {
+	list-style-type: none;
+	margin: 0;
+	background-color: #F3F3F3;
+	border-bottom: 1px solid #FFF;
+}
+.p7TM3-01 ul ul li {
+	padding-left: .5em;
+	background-image: url(../images/bullet-blue.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+}
+.p7TM3-01 ul a {
+	color: #602C55;
+	display: block;
+	padding: 3px 8px 3px 18px;
+	text-decoration: none;
+}
+.p7TM3-01 ul a:hover, .p7TM3-01 ul a:focus {
+	color: #974474;
+	text-decoration: underline;
+	outline: none;
+	background-repeat: no-repeat;
+}
+.p7TM3-01 ul ul a {
+	font-size: .9em;
+	border: none;
+}
+.p7TM3-01 ul ul a:hover, .p7TM3-01 ul ul a:focus {
+	border: none;
+}
+.p7TM3-01 ul ul a.trig_open {
+	color: #000;
+}
+.p7TM3-01 ul ul a.p7tm3_page:after {
+	
+	/* [disabled]background-position: left center; */
+	/*content: "\27B2";
+	color: #DBDBDB;
+	-webkit-transition: color linear .4s .1s;
+	transition: color linear .4s .1s;*/
+}
+.p7TM3-01 ul ul a.p7tm3_page:hover:after {
+	/*content: "\27B2";
+	color: #666;*/
+}
+.p7TM3-01 a.trig_closed {
+    background-image: url(../images/r-men-arr.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.p7TM3-01 a.trig_open {
+	background-image: url(../images/r-men-arr.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border-bottom-color: transparent;
+}
+.p7TM3-01 a.current_mark {
+	font-weight: bold;
+	color: #073656;
+	background-color: #FFFFFF;
+}
+.p7TM3-01 ul ul a.current_mark {
+	font-weight: bold;
+	
+	background-position: 0px center;
+	background-repeat: no-repeat;
+}
+.p7TM3-01_toggle_all {
+	margin: 0 0 12px 0;
+	display: block;
+	font-size: .75em;
+	text-transform: uppercase;
+}
+.p7TM3-01_toggle_all a {
+	color: #0082CB;
+}
+.p7TM3-01_toggle_all a:hover, .p7TM3-01_toggle_all a:focus, .p7TM3-01_toggle_all a:active {
+	color: #A54E9E;
+	outline: none;
+	background: none;
+}
+/*Toolbar for Smartphones to Hide or Show entire menu*/
+.p7TM3-toolbar {
+	display: none;
+}
+/*IE10 Kill Default Active Background*/
+.p7TM3-01 a:active {
+	background-color: transparent;
+}
+/*Smartphone Menu Presentation*/
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+.p7TM3-01_toggle_all {
+	display: none;
+}
+.p7TM3-01.responsive .p7TM3-toolbar {
+	position: relative;
+	z-index: 999;
+	display: block;
+	text-align: left;
+	padding: 6px;
+	cursor: pointer;
+	background-color: #C8C8C8;
+}
+.p7TM3.responsive ul.closed {
+	display: none;
+}
+.p7TM3.responsive ul.opened {
+	display: block;
+}
+.p7TM3-01.responsive .p7TM3-toolbar img {
+	border: none;
+	display: inline-block;
+	vertical-align: baseline;
+}
+/*END MEDIA QUERY - DO NOT REMOVE CURLY BRACE BELOW*/
+}

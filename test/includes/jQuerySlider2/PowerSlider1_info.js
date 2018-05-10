@@ -1,0 +1,1 @@
+{"bgType":"pattern17","skin":"skin3","colorscheme":"default","isCustomSkin":false}

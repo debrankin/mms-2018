@@ -1,0 +1,132 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 01 - Basic
+  -----------------------------------
+*/
+
+
+.p7AP3-01 {
+	padding: 0px;
+	margin: 0 auto;
+	width: auto;
+}
+.p7AP3:after {
+	content: ".";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+}
+.p7AP3trig.p7ap3-theme-01 {
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.p7AP3trig.p7ap3-theme-01 h3, .p7AP3trig.p7ap3-theme-01 h4 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: normal;
+	font-size: 1em;
+}
+.p7AP3trig.p7ap3-theme-01 h2 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: normal;
+	font-size: 1.25em;
+}
+.p7AP3trig.p7ap3-theme-01 a {
+	display: block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	background-color: #FFF;
+	background-image: url(../images/panel-open.png), -webkit-linear-gradient(270deg,rgba(210,210,212,0.34) 34.19%,rgba(217,218,219,0.16) 72.57%);
+	background-image: url(../images/panel-open.png), -moz-linear-gradient(270deg,rgba(210,210,212,0.34) 34.19%,rgba(217,218,219,0.16) 72.57%);
+	background-image: url(../images/panel-open.png), -o-linear-gradient(270deg,rgba(210,210,212,0.34) 34.19%,rgba(217,218,219,0.16) 72.57%);
+	background-image: url(../images/panel-open.png), linear-gradient(180deg,rgba(210,210,212,0.34) 34.19%,rgba(217,218,219,0.16) 72.57%);
+	background-repeat: no-repeat;
+	background-position: left center;
+	border: 1px solid #EDEFF0;
+	font-weight: normal;
+	border-radius: 8px;
+	box-shadow: 0px 1px 2px 0px #C9C9C9;
+	-moz-box-shadow: 0px 1px 2px 0px #C9C9C9;
+	-webkit-box-shadow: 0px 1px 2px 0px #C9C9C9;
+	border: 1px solid #EDEFF0
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3_ext, .p7AP3trig.p7ap3-theme-01 .p7AP3_ext.p7AP3trig_down {
+	background-image: url(img/p7AP3_page_black.gif);
+	background-color: #FFF;
+	letter-spacing: normal;
+	border-radius:8px 8px 0px 0px;
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3_ext:hover {
+	color: undefined;
+}
+.p7AP3trig.p7ap3-theme-01 a:hover {
+	color: #2B2B2B;
+	background-color: #FFFFFF;
+	background-image: url(../images/panel-open.png), -webkit-linear-gradient(270deg,rgba(217,218,219,0.16) 2.38%,rgba(217,218,219,0.16) 95.84%);
+	background-image: url(../images/panel-open.png), -moz-linear-gradient(270deg,rgba(217,218,219,0.16) 2.38%,rgba(217,218,219,0.16) 95.84%);
+	background-image: url(../images/panel-open.png), -o-linear-gradient(270deg,rgba(217,218,219,0.16) 2.38%,rgba(217,218,219,0.16) 95.84%);
+	background-image: url(../images/panel-open.png), linear-gradient(180deg,rgba(217,218,219,0.16) 2.38%,rgba(217,218,219,0.16) 95.84%);
+	background-repeat: no-repeat;
+	background-position: 0% center;
+}
+.p7AP3trig.p7ap3-theme-01 a:focus {
+	background-color: undefined;
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3trig_down, .p7AP3trig.p7ap3-theme-01 .p7AP3trig_down:hover {
+	background-image: url(../images/panel-close.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: rgba(217,218,219,0.16);
+	color: #231F20;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3trig_down:hover {}
+.p7AP3cwrapper.p7ap3-theme-01 {
+	position: relative;
+	top: -2px;
+}
+.p7AP3panelcontent.p7ap3-theme-01 {
+	line-height: 1.5em;
+	border: 1px solid #F2F2F2;
+	border-radius: 0px 0px 8px 8px;
+	border-top: none;
+	margin-bottom: 10px;
+}
+.p7AP3panelcontent.p7ap3-theme-01 h1,
+.p7AP3panelcontent.p7ap3-theme-01 h2,
+.p7AP3panelcontent.p7ap3-theme-01 h3,
+.p7AP3panelcontent.p7ap3-theme-01 h4 {
+	margin: 0px;
+}
+.p7AP3content.p7ap3-theme-01 p {
+	margin-top: 6px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 12px;
+}
+.p7AP3trig.p7ap3-theme-01 a.current_mark {
+	font-weight: bold;
+}
+.p7AP3trig.p7ap3-theme-01 a.p7AP3_ext.current_mark, .p7AP3trig.p7ap3-theme-01 a.p7AP3_ext.current_mark:hover {
+	background-image: url(img/p7AP3_page_black.gif) !important;
+	background-color: #FFF !important;
+}
+.p7AP3panelcontent.p7ap3-theme-01 .current_mark {
+	font-weight: bold;
+}
+.it-intro {
+	display: inline;
+	font-size: 0.8em;
+	font-style: italic;
+}

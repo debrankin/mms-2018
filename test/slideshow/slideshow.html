@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<head>
+    <title>Slideshow</title>
+    
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    
+</head>
+<body>
+<div id="slider" class="nivoSlider">
+       
+          <img src="images/beatles_0.jpg" alt="" title="" class="scalable"/>
+<img src="images/beatles_2.jpg" title="" class="scalable">
+<img src="images/beatles_3.jpg" title="" class="scalable">
+<img src="images/beatles-1.jpg" title="" class="scalable">
+
+
+</div>
+    <div id="htmlcaption" class="nivo-html-caption">
+        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
