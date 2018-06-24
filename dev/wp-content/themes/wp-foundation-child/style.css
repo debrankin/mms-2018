@@ -1,0 +1,463 @@
+/*  
+Theme Name: Foundation Child Theme
+Theme URI: http://320press.com/wpfoundation
+Version: 1.0
+Description: Stop this theme from stripping core functionality!!!!!
+Author: SevenSpark
+Template: wp-foundation
+
+*/
+add_action( 'wp_enqueue_scripts', 'foundation_child_theme_scripts' );
+function foundation_child_theme_scripts() { 
+wp_enqueue_style( 'wp-foundation-css', get_template_directory_uri() . '/style.css' );
+}
+
+
+/* GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+html, body, iframe, h4, h5, h6 {font-family: 'Museo Sans', sans-serif; }
+h1, h2, h3,p,texarea { font-family: 'Museo Sans', sans-serif !important; }
+
+h1,h2 {
+    
+   font-weight:900; 
+    
+}
+
+p {
+    
+   font-size:13pt !important; 
+    font-weight:500 !important;   
+    line-height: 17pt !important;
+    color:#2a2008;
+}
+#fb3 {
+    position: relative;
+    height: 30px;
+    width: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+.sm-box {
+    width: 155px;
+    height: 44px;
+    margin-top: 15px;
+
+}
+
+.fb-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/fb-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.fb-button:hover {
+    background-image: url(/wp-content/uploads/2015/04/fb-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tw-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/tw-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.tw-button:hover {
+    background-image: url(/wp-content/uploads/2015/04/tw-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inst-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/inst-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.inst-button:hover {
+    background-image: url(/wp-content/uploads/2015/04/inst-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yt-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/yt-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.yt-button:hover {
+    background-image: url(/wp-content/uploads/2015/04/yt-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sm-box2 {
+    width: 160px;
+    height: 34px;
+    margin-top: 10px;
+
+}
+
+.fb-button2 {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/fb-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.fb-button2:hover {
+    background-image: url(/wp-content/uploads/2015/04/fb-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tw-button2 {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/tw-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.tw-button2:hover {
+    background-image: url(/wp-content/uploads/2015/04/tw-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inst-button2 {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/inst-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.inst-button2:hover {
+    background-image: url(/wp-content/uploads/2015/04/inst-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yt-button2 {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background-image: url(/wp-content/uploads/2015/04/yt-off.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.35s ease-in-out;
+}
+
+.yt-button2:hover {
+    background-image: url(/wp-content/uploads/2015/04/yt-on.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sm-box3 {
+    width: 180px;
+    height: 34px;
+    margin-top: 10px;
+
+}
+
+#fb3 {
+    position: relative;
+    height: auto;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+#fb3 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#fb3 img.top:hover {
+    opacity: 0;
+}
+
+#in3 {
+    position: relative;
+    height: auto;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+#in3 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#in3 img.top:hover {
+    opacity: 0;
+}
+
+#tw3 {
+    position: relative;
+   height: auto;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+#tw3 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#tw3 img.top:hover {
+    opacity: 0;
+}
+
+#yt3 {
+    position: relative;
+    height: auto;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+#yt3 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#yt3 img.top:hover {
+    opacity: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{ 
+    color:#2a2008;
+
+			}
+		
+			a{ 
+				color: #2a2008; 
+			}
+			a:hover{ 
+				color: #4b3a10; 
+			}
+			a:active{ 
+				color: #4b3a10; 
+			}
+			.top-nav { 
+				background-color: #4D4D4D;
+			}
+			.top-nav > li > a { 
+				color: #E6E6E6 !important;
+			}
+			.top-nav > li > a:hover { 
+				color: #E6E6E6 !important;
+			}
+			#main article {
+				border-bottom: none;
+			}
+
+
+.row {
+width: 1200px;
+max-width: 100%;
+min-width: auto;
+margin: 0 auto;
+}
+.aligncenter {
+text-align: center;
+margin: 15px auto;
+width: 95%;
+}    
+
+.alignleft {
+float:left !important;
+margin-right:20px !important;
+margin-top: 0 !important;
+
+}   
+
+.alignright {
+float:right !important;
+margin-left:20px !important;
+margin-top: 0 !important;
+
+}   
+
+.label.success {
+background-color: #ff9247;
+padding: 5px;
+line-height: 24pt;
+}
+
+
+.label {
+
+background: #ffa66a;
+}
+
+
+div.panel {
+background: #f2f2f2;
+border: solid 1px #e6e6e6;
+margin: 10px 0 10px 0;
+padding: 15px;
+border-radius: 8px;
+}
+
+#comment-nav ul {
+    
+    list-style-type: none;    
+}
+
+.comment .list .row {
+    
+    list-style-type: none;    
+}
+
+
+.pfooter {
+    
+/*border: 2px solid #fff;*/
+border-radius:4px;
+padding:15px; 
+margin-bottom:15px;
+    color:#fff;
+/*background-color:#fff;*/
+}
+.clearfix {
+    
+clear:both;    
+    
+}
+.m-footer-social {
+margin-top: 50px;
+}
+
+.m-footer-social img {
+width:60px;
+}
+button:hover, button:focus, input[type='button']:hover, input[type='button']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='submit']:hover, input[type='submit']:focus, .card__link:hover, .card__link:focus, .button:hover, .button:focus, .m-subscribe .ctct-custom-form .ctct-button:hover, .m-subscribe .ctct-custom-form .ctct-button:focus, .card-button:hover, .card-button:focus {
+background-color: #4b3a10;
+color: #ffffff;
+}
+button:hover, button:focus, input[type='button']:hover, input[type='button']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='submit']:hover, input[type='submit']:focus, .card__link:hover, .card__link:focus, .button:hover, .button:focus, .m-subscribe .ctct-custom-form .ctct-button:hover, .m-subscribe .ctct-custom-form .ctct-button:focus, .card-button:hover, .card-button:focus {
+    background-color: #4b3a10 !important;
+}
+    
+button, input[type='button'], input[type='reset'], input[type='submit'] {
+appearance: none;
+background-color: #614b16 !important;
+border: 2px solid #ded5c0 !important;
+border-radius: 1em !important;
+color: #ffffff;
+cursor: pointer;
+display: inline-block;
+font-family: "Museo Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+-webkit-font-smoothing: antialiased;
+font-weight: 900;
+line-height: 1;
+padding: 0.4em 0.8em;
+text-decoration: none;
+text-transform: uppercase;
+transition: background-color 150ms ease;
+user-select: none;
+vertical-align: middle;
+white-space: nowrap;
+
+}
+
+
+footer, footer p, footer a:link, footer a:visited {
+    color:#fff !important;
+
+}
+
+
+
+footer label {
+font-size: 13pt !important;
+/* color: #4d4d4d; */
+cursor: pointer;
+display: block;
+font-weight: 500;
+margin-bottom: 8px !important;
+    color:#fff !important;
+}
+
+.header-tag {
+    width: 100%;
+    height: 22px;
+    color: #ded5c0;
+    background-color: #ac8120;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    clear: both;
+    font-size: 9pt;
+    line-height: 16pt;
+    text-align: center;
+    text-shadow: 2px 2px 3px #373636;
+    font-weight: 500;
+}
+
+.screen-reader-text {
+    
+   display:none; 
+    
+}

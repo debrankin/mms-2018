@@ -1,0 +1,1 @@
+<?php return '{"xtd_one_page":{"instance":{"duration":"1000","swing":"linear","enabled":false}}}';

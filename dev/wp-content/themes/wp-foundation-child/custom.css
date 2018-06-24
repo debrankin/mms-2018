@@ -1,0 +1,44 @@
+/*  
+Theme Name: Foundation Child Theme
+Theme URI: http://320press.com/wpfoundation
+Version: 1.0
+Description: Stop this theme from stripping core functionality!!!!!
+Author: SevenSpark
+Template: wp-foundation
+*/
+
+
+
+/* GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+div.mycols {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+div.mycols {
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+div.mycols {
+    -webkit-column-rule: 3px outset #ff00ff; /* Chrome, Safari, Opera */
+    -moz-column-rule: 3px outset #ff00ff; /* Firefox */
+    column-rule: 3px outset #ff00ff;
+}
+
+
+/* DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go below this line */
+
+.stylehere {
+
+
+}
+	
+}

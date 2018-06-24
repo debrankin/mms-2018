@@ -1,0 +1,29 @@
+@charset "UTF-8"; /* CSS Document */
+
+
+html, body, iframe, h4, h5, h6 {font-family: 'Open Sans', sans-serif; }
+h1, h2, h3 { font-family: FFScalaSansWebBold !important; }
+/*h4,h5, h6 { font-family: FFScalaSansWebRegular !important; }*/
+
+
+.templ-theme-default .navigation {
+	
+	background-color:  #dcdcdc;
+
+}
+
+.navigation {
+	
+	padding: 10px 0;
+	
+}
+.templ-theme-default .topLinkRDetails a {
+color:#666;	
+	
+	
+}
+
+.templ-theme-default .topLinkRDetails a {
+	
+	font-family: FFScalaSansWebBold !important; 
+}
